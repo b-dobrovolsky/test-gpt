@@ -14,8 +14,8 @@ System.out.println("На улице " + temperature + " градусов, нуж
 System.out.println("Можно идти без шапки");
 }
 //Задача 3
-int speed = 60;
-if (speed &lt;= 60) {
+int speed = 70;
+if (speed < 60) {
 System.out.println("Можно ездить спокойно");
 } else {
 System.out.println("Если скорость " + speed + " придется заплатить штраф.");
@@ -53,8 +53,8 @@ System.out.println("Если возраст ребенка равен " + ageTas
 ", то ему можно кататься на аттракционе без сопровождения взрослого.");
 }
 //Задача 6
-int plase = 170;
-if (plase &lt;= 60 &amp;&amp; plase &gt; 0 &amp;&amp; plase != 0) {
+int place = 170;
+if (place <= 60 && place > 0) {
 System.out.println("Есть сидячее место");
 } else if (plase &gt;= 61 &amp;&amp; plase &lt;= 102) {
 System.out.println("Есть стоячее место");
