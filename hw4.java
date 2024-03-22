@@ -26,15 +26,15 @@ if (ageTask4 &gt;= 2 &amp;&amp; ageTask4 &lt;= 6) {
 System.out.println("Если возраст человека равен " + ageTask4 +
 ", то ему нужно ходить в детский сад.");
 }
-if (ageTask4 &gt;= 7 &amp;&amp; ageTask4 &lt;= 17) {
+else if (ageTask4 &gt;= 7 &amp;&amp; ageTask4 &lt;= 17) {
 System.out.println("Если возраст человека равен " + ageTask4 +
 ", то ему нужно ходить в школу.");
 }
-if (ageTask4 &gt;= 18 &amp;&amp; ageTask4 &lt;= 24) {
+else if  (ageTask4 &gt;= 18 &amp;&amp; ageTask4 &lt;= 24) {
 System.out.println("Если возраст человека равен " + ageTask4 +
 ", то ему нужно ходить в универ.");
 }
-if (ageTask4 &gt; 24) {
+else (ageTask4 &gt; 24) {
 System.out.println("Если возраст человека равен " + ageTask4 +
 ", то ему нужно ходить на работу.");
 }
@@ -56,7 +56,7 @@ System.out.println("Если возраст ребенка равен " + ageTas
 int place = 170;
 if (place <= 60 && place > 0) {
 System.out.println("Есть сидячее место");
-} else if (plase &gt;= 61 &amp;&amp; plase &lt;= 102) {
+} else if (place &gt;= 61 &amp;&amp; place &lt;= 102) {
 System.out.println("Есть стоячее место");
 } else {
 System.out.println("Вагон уже полностью заполнен");
